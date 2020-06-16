@@ -1,0 +1,188 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#fullpage {
+    
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+#firstcontent {
+    background-image: url("sidebar2.jpg");
+    background-size: cover;
+    background-position: center;
+   
+   
+   display: flex;
+   flex-direction: column;
+   
+   
+}
+
+.firstlist {
+
+    color: white;
+    background-color:rgb(247, 143, 114);
+   background 
+        
+    justify-content: center;
+    padding: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+    height: 0.5%;
+    font-family: serif;
+    font-weight: 600;
+    
+    border: 0.2px solid white;
+    
+}
+
+#secondcontent {
+   display: grid;
+   grid-area: 100%;
+
+}
+
+#cecelia {
+    font-family: monoton, cursive;
+    font-weight: 300;
+    color: red;
+}
+
+#and {
+    font-family: 'Lobster Two', cursive;
+    font-weight: 100;
+    font-style: italic;
+    margin: 2%;
+    color: rgb(173, 124, 71);
+}
+
+h2 {
+    font-family: 'Noto Serif', serif;
+    font-weight: 600;
+    font-size: 100%;
+    color: rgb(173, 124, 71);
+}
+
+#names {
+    text-align: center;
+}
+
+#kevin {
+    font-family: monoton, cursive;
+    font-weight: 300;
+    font-size: 200%;
+    height: 10%;
+    
+}
+
+#mainimage {
+    width: 110%;
+   
+}
+
+.line { 
+    border-top: 1px solid rgb(173, 124, 71);
+    
+    
+}
+
+#details {
+    height: 100%;
+    display: grid;
+    grid-template-columns: 70% 30%;
+    border-bottom: 1px solid rgb(173, 124, 71);
+    
+}
+
+#date {
+    border-right: 1px solid rgb(173, 124, 71);
+   
+    margin-left: 5%;
+    padding: 10%;
+    width: 50%;
+    justify-content: center;
+    text-align: center;
+    color: rgb(173, 124, 71);
+}
+
+#vandt {
+    
+    height: 80%;
+    margin-left: 5%;
+    width: 50%;
+    padding-top: 5%;
+    
+    justify-content: center;
+    text-align: center;
+    color: rgb(173, 124, 71);
+}
+
+.day {
+    font-family: 'Noto Serif', serif;
+    justify-content: center;
+}
+
+.year {
+    font-family: 'monoton', cursive;
+    font-size: 500%;
+    font-weight: 500;
+    padding: 10;
+    text-align: center;
+}
+
+.time {
+    font-family: 'Noto Serif', serif;
+    justify-content: center;
+}
+
+.venue {
+    font-family: 'monoton', cursive;
+    font-size: 200%;
+    text-align: center;
+    justify-content: start;
+}
+
+.location {
+    font-family: 'Noto Serif', serif;
+    justify-content: center;
+}
+
+#explain {
+    font-style: italic;
+    font-family: 'Bellota', cursive;
+}
+
+#onlybutton {
+    justify-content: center;
+    align-items: center;
+    margin-left: 30%;
+    margin-top: 5%;
+}
+
+#button {
+    justify-content: center;
+    text-align: center;
+    background-color: tomato;
+    background-size: 80%;
+    color: white;
+    width: 50%;
+    
+    font-weight: 600;
+    font-family: serif;
+    padding: 3%;
+    font-size: 100%;
+  
+}
+
+#coverstory {
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+#story {
+font-family: 'monoton', cursive;
+font-size: 300%;
+color: red;
+}
